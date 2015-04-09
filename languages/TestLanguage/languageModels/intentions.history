@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="91ob" modelUID="r:b36101db-4b73-4c95-8fa7-015b417c3fae(TestLanguage.structure)" version="-1" />
+      <model index="obg" modelUID="r:d8b2748d-f5fb-4f4b-9dbe-f5a4b89e817e(TestLanguage.generator.template.main@generator)" version="-1" />
+      <model index="62bv" modelUID="r:94fb2793-5287-46f5-a685-ecfd0d0956d0(TestLanguage.constraints)" version="-1" />
+      <model index="853h" modelUID="r:958ee383-eb17-475f-adcd-34f16deb2fe0(TestLanguage.intentions)" version="-1" />
+      <model index="hs9p" modelUID="r:4493222b-9ba4-4a1f-a4b4-9ee1ea6f2b88(TestLanguage.behavior)" version="-1" />
+      <model index="qi36" modelUID="r:d8a91b2a-b842-4a63-8ef1-c3fc196c5aa7(TestLanguage.typesystem)" version="-1" />
+      <model index="yie7" modelUID="r:f1d499ef-3334-4c80-9f2e-81ff6b40e50f(TestLanguage.editor)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:f1d499ef-3334-4c80-9f2e-81ff6b40e50f(TestLanguage.editor)" newModel="r:f1d499ef-3334-4c80-9f2e-81ff6b40e50f(com.dslfoundry.TestLanguage.editor)" />
+    <RenameModel oldModel="r:4493222b-9ba4-4a1f-a4b4-9ee1ea6f2b88(TestLanguage.behavior)" newModel="r:4493222b-9ba4-4a1f-a4b4-9ee1ea6f2b88(com.dslfoundry.TestLanguage.behavior)" />
+    <RenameModel oldModel="r:b36101db-4b73-4c95-8fa7-015b417c3fae(TestLanguage.structure)" newModel="r:b36101db-4b73-4c95-8fa7-015b417c3fae(com.dslfoundry.TestLanguage.structure)" />
+    <RenameModel oldModel="r:958ee383-eb17-475f-adcd-34f16deb2fe0(TestLanguage.intentions)" newModel="r:958ee383-eb17-475f-adcd-34f16deb2fe0(com.dslfoundry.TestLanguage.intentions)" />
+    <RenameModel oldModel="r:d8a91b2a-b842-4a63-8ef1-c3fc196c5aa7(TestLanguage.typesystem)" newModel="r:d8a91b2a-b842-4a63-8ef1-c3fc196c5aa7(com.dslfoundry.TestLanguage.typesystem)" />
+    <RenameModel oldModel="r:94fb2793-5287-46f5-a685-ecfd0d0956d0(TestLanguage.constraints)" newModel="r:94fb2793-5287-46f5-a685-ecfd0d0956d0(com.dslfoundry.TestLanguage.constraints)" />
+    <RenameModel oldModel="r:d8b2748d-f5fb-4f4b-9dbe-f5a4b89e817e(TestLanguage.generator.template.main@generator)" newModel="r:d8b2748d-f5fb-4f4b-9dbe-f5a4b89e817e(com.dslfoundry.TestLanguage.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
