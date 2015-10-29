@@ -11,5 +11,11 @@
     <usedLanguage>652eb28e-2b53-45e6-8ac4-7321d868f280(com.dslfoundry.TestLanguage)</usedLanguage>
     <usedLanguage>92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</usedLanguage>
   </usedLanguages>
+  <languageVersions>
+    <language id="df5bd3dd-a4ec-4d50-9566-507bbf175dbe" fqName="com.dslfoundry.MultilineTextgen" version="0" />
+    <language id="652eb28e-2b53-45e6-8ac4-7321d868f280" fqName="com.dslfoundry.TestLanguage" version="0" />
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" fqName="de.slisson.mps.richtext" version="0" />
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
+  </languageVersions>
 </solution>
 
