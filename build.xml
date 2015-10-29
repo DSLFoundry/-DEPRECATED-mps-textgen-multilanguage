@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/mps-textgen-multiline" />
   <property name="mps_home" location="" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.mps-sl-all" location="${basedir}/../mps-all/build/artifacts/mps-sl-all" />
+  <property name="artifacts.mps-sl-all" location="${basedir}/../../.." />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />

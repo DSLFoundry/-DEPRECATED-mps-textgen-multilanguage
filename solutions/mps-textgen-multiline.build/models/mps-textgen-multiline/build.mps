@@ -120,15 +120,9 @@
         <node concept="2Ry0Ak" id="7cHHwqRGWcb" role="iGT6I">
           <property role="2Ry0Am" value=".." />
           <node concept="2Ry0Ak" id="7cHHwqRGWci" role="2Ry0An">
-            <property role="2Ry0Am" value="mps-all" />
-            <node concept="2Ry0Ak" id="7cHHwqRGWcp" role="2Ry0An">
-              <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="7cHHwqRGWcw" role="2Ry0An">
-                <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="7cHHwqRGWcB" role="2Ry0An">
-                  <property role="2Ry0Am" value="mps-sl-all" />
-                </node>
-              </node>
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="7cHHwqRHkff" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
             </node>
           </node>
         </node>
