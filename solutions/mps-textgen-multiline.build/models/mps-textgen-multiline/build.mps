@@ -117,13 +117,10 @@
     <node concept="2sgV4H" id="7cHHwqRGWbO" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="55IIr" id="7cHHwqRGWc0" role="2JcizS">
-        <node concept="2Ry0Ak" id="7cHHwqRGWcb" role="iGT6I">
+        <node concept="2Ry0Ak" id="6IO8wtNODH1" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7cHHwqRGWci" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7cHHwqRHkff" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-            </node>
+          <node concept="2Ry0Ak" id="6IO8wtNODH8" role="2Ry0An">
+            <property role="2Ry0Am" value="dependencies" />
           </node>
         </node>
       </node>
