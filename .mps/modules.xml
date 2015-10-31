@@ -5,7 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/TestLanguage/TestLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.mps.textgen.multilanguage/com.dslfoundry.mps.textgen.multilanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/mps-textgen-multiline.build/mps-textgen-multiline.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.dslfoundry.mps.textgen.multilanguage.build/com.dslfoundry.mps.textgen.multilanguage.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
