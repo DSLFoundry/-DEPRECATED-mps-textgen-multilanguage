@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="81r2" modelUID="r:6e683674-5940-4ed0-8125-53de68efa4a4(NewLanguage.structure)" version="0" />
+    </dependencies>
+    <rename id="81r2.3918894068770006167" type="CONCEPT" from="MyText" to="TextgenText" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="81r2" modelUID="r:6e683674-5940-4ed0-8125-53de68efa4a4(NewLanguage.structure)" version="1" />
+    </dependencies>
+    <rename id="81r2.3918894068770432360" type="CONCEPT" from="MyTextPart" to="TextgenTextPart" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="81r2" modelUID="r:6e683674-5940-4ed0-8125-53de68efa4a4(NewLanguage.structure)" version="2" />
+    </dependencies>
+    <rename id="81r2.3918894068769790014" type="CONCEPT" from="MyWord" to="TextgenWord" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="5o1c" modelUID="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(NewLanguage.constraints)" version="-1" />
+      <model index="4a90" modelUID="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(NewLanguage.actions)" version="-1" />
+      <model index="13o3" modelUID="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(NewLanguage.textGen)" version="-1" />
+      <model index="3zee" modelUID="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(NewLanguage.typesystem)" version="-1" />
+      <model index="uoy4" modelUID="r:4066d180-0850-44f3-9524-fa9392543f2c(NewLanguage.generator.template.main@generator)" version="-1" />
+      <model index="f5o1" modelUID="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(NewLanguage.intentions)" version="-1" />
+      <model index="81r2" modelUID="r:6e683674-5940-4ed0-8125-53de68efa4a4(NewLanguage.structure)" version="3" />
+      <model index="m6ss" modelUID="r:4912d1dc-1564-4259-8a3a-5586823830ef(NewLanguage.editor)" version="-1" />
+      <model index="cxnd" modelUID="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(NewLanguage.behavior)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:4912d1dc-1564-4259-8a3a-5586823830ef(NewLanguage.editor)" newModel="r:4912d1dc-1564-4259-8a3a-5586823830ef(MultilineTextgen.editor)" />
+    <RenameModel oldModel="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(NewLanguage.actions)" newModel="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(MultilineTextgen.actions)" />
+    <RenameModel oldModel="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(NewLanguage.textGen)" newModel="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(MultilineTextgen.textGen)" />
+    <RenameModel oldModel="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(NewLanguage.behavior)" newModel="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(MultilineTextgen.behavior)" />
+    <RenameModel oldModel="r:6e683674-5940-4ed0-8125-53de68efa4a4(NewLanguage.structure)" newModel="r:6e683674-5940-4ed0-8125-53de68efa4a4(MultilineTextgen.structure)" />
+    <RenameModel oldModel="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(NewLanguage.intentions)" newModel="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(MultilineTextgen.intentions)" />
+    <RenameModel oldModel="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(NewLanguage.typesystem)" newModel="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(MultilineTextgen.typesystem)" />
+    <RenameModel oldModel="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(NewLanguage.constraints)" newModel="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(MultilineTextgen.constraints)" />
+    <RenameModel oldModel="r:4066d180-0850-44f3-9524-fa9392543f2c(NewLanguage.generator.template.main@generator)" newModel="r:4066d180-0850-44f3-9524-fa9392543f2c(MultilineTextgen.generator.template.main@generator)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="5o1c" modelUID="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(MultilineTextgen.constraints)" version="0" />
+      <model index="13o3" modelUID="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(MultilineTextgen.textGen)" version="0" />
+      <model index="4a90" modelUID="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(MultilineTextgen.actions)" version="0" />
+      <model index="3zee" modelUID="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(MultilineTextgen.typesystem)" version="0" />
+      <model index="uoy4" modelUID="r:4066d180-0850-44f3-9524-fa9392543f2c(MultilineTextgen.generator.template.main@generator)" version="0" />
+      <model index="f5o1" modelUID="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(MultilineTextgen.intentions)" version="0" />
+      <model index="81r2" modelUID="r:6e683674-5940-4ed0-8125-53de68efa4a4(MultilineTextgen.structure)" version="4" />
+      <model index="m6ss" modelUID="r:4912d1dc-1564-4259-8a3a-5586823830ef(MultilineTextgen.editor)" version="0" />
+      <model index="cxnd" modelUID="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(MultilineTextgen.behavior)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:4912d1dc-1564-4259-8a3a-5586823830ef(MultilineTextgen.editor)" newModel="r:4912d1dc-1564-4259-8a3a-5586823830ef(com.dslfoundry.MultilineTextgen.editor)" />
+    <RenameModel oldModel="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(MultilineTextgen.actions)" newModel="r:1ec0e61f-7d0c-4425-8a35-1f562cdcfd88(com.dslfoundry.MultilineTextgen.actions)" />
+    <RenameModel oldModel="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(MultilineTextgen.textGen)" newModel="r:259f0a06-0478-402c-aa41-cab7d5a4d34e(com.dslfoundry.MultilineTextgen.textGen)" />
+    <RenameModel oldModel="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(MultilineTextgen.behavior)" newModel="r:8f2bf552-2767-42e9-afa2-7a2a01ca5fc8(com.dslfoundry.MultilineTextgen.behavior)" />
+    <RenameModel oldModel="r:6e683674-5940-4ed0-8125-53de68efa4a4(MultilineTextgen.structure)" newModel="r:6e683674-5940-4ed0-8125-53de68efa4a4(com.dslfoundry.MultilineTextgen.structure)" />
+    <RenameModel oldModel="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(MultilineTextgen.intentions)" newModel="r:6e31e3fc-5f1a-4c80-a90e-9f6d4a6f5160(com.dslfoundry.MultilineTextgen.intentions)" />
+    <RenameModel oldModel="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(MultilineTextgen.typesystem)" newModel="r:7fcf53ec-b79c-4ae7-bc36-ea981edecc65(com.dslfoundry.MultilineTextgen.typesystem)" />
+    <RenameModel oldModel="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(MultilineTextgen.constraints)" newModel="r:22127e6b-2a17-4595-a9b5-0c0a007f0c04(com.dslfoundry.MultilineTextgen.constraints)" />
+    <RenameModel oldModel="r:4066d180-0850-44f3-9524-fa9392543f2c(MultilineTextgen.generator.template.main@generator)" newModel="r:4066d180-0850-44f3-9524-fa9392543f2c(com.dslfoundry.MultilineTextgen.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
