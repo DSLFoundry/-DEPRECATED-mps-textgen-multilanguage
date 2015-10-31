@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="mps-textgen-multiline.build" uuid="7205159a-3f09-4b0b-b3bf-242391e68c82" compileInMPS="true">
+<solution name="com.mbeddr.mps.textgen.multilanguage.build" uuid="7205159a-3f09-4b0b-b3bf-242391e68c82" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

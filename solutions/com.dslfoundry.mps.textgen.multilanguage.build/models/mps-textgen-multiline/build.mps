@@ -106,7 +106,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="7cHHwqRGU3$">
-    <property role="TrG5h" value="mps-textgen-multiline" />
+    <property role="TrG5h" value="mps-textgen-multilanguage" />
     <property role="2DA0ip" value="../../" />
     <node concept="10PD9b" id="7cHHwqRGU3_" role="10PD9s" />
     <node concept="3b7kt6" id="7cHHwqRGU3A" role="10PD9s" />
@@ -176,7 +176,7 @@
       <property role="TrG5h" value="mps-textgen-multiline" />
       <node concept="1E1JtA" id="xpeortHN_p" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="mps-textgen-multiline.build" />
+        <property role="TrG5h" value="com.dslfoundry.mps.textgen.multilanguage.build" />
         <property role="3LESm3" value="7205159a-3f09-4b0b-b3bf-242391e68c82" />
         <property role="2GAjPV" value="false" />
         <node concept="55IIr" id="xpeortHN_s" role="3LF7KH">
