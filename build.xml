@@ -22,10 +22,10 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/mps-textgen-multiline.zip" />
-    <mkdir dir="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline" />
-    <mkdir dir="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/META-INF" />
-    <echoxml file="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/mps-textgen-multilanguage.zip" />
+    <mkdir dir="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline" />
+    <mkdir dir="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/META-INF" />
+    <echoxml file="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>com.dslfoundry.mps.textgen.multilanguage</id>
         <name>mps-textgen-multiline</name>
@@ -39,8 +39,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages" />
-    <mkdir dir="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline" />
+    <mkdir dir="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages" />
+    <mkdir dir="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline" />
     <mkdir dir="${build.tmp}/default/com.dslfoundry.mps.textgen.multilanguage.build.jar" />
     <mkdir dir="${build.tmp}/default/com.dslfoundry.mps.textgen.multilanguage.build.jar/META-INF" />
     <echoxml file="${build.tmp}/default/com.dslfoundry.mps.textgen.multilanguage.build.jar/META-INF/module.xml">
@@ -49,7 +49,7 @@
         <sources jar="com.dslfoundry.mps.textgen.multilanguage.build-src.jar" descriptor="mps-textgen-multiline.build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.build.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.dslfoundry.mps.textgen.multilanguage.build" />
       <fileset dir="${basedir}/solutions/mps-textgen-multiline.build" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/solutions/mps-textgen-multiline.build/source_gen" includes="**/trace.info, **/exports" />
@@ -58,7 +58,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-mps-textgen-multiline.build-models">
       <fileset dir="${basedir}/solutions/mps-textgen-multiline.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.build-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.build-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/mps-textgen-multiline.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -87,13 +87,13 @@
         <sources jar="com.dslfoundry.mps.textgen.multilanguage-src.jar" descriptor="com.dslfoundry.mps.textgen.multilanguage.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.dslfoundry.mps.textgen.multilanguage" />
       <fileset dir="${basedir}/languages/com.dslfoundry.mps.textgen.multilanguage" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/languages/com.dslfoundry.mps.textgen.multilanguage/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/com.dslfoundry.mps.textgen.multilanguage.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.dslfoundry.mps.textgen.multilanguage#3918894068769772845" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-com.dslfoundry.mps.textgen.multilanguage-generator-template">
@@ -102,7 +102,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-com.dslfoundry.mps.textgen.multilanguage-languageModels">
       <fileset dir="${basedir}/languages/com.dslfoundry.mps.textgen.multilanguage/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/mps-textgen-multiline.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-textgen-multilanguage.zip/mps-textgen-multiline/languages/mps-textgen-multiline/com.dslfoundry.mps.textgen.multilanguage-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/com.dslfoundry.mps.textgen.multilanguage/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -115,8 +115,8 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-com.dslfoundry.mps.textgen.multilanguage-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-com.dslfoundry.mps.textgen.multilanguage-languageModels" prefix="module/languageModels" />
     </jar>
-    <zip destfile="${build.layout}/mps-textgen-multiline.zip">
-      <fileset dir="${build.tmp}/default/mps-textgen-multiline.zip" />
+    <zip destfile="${build.layout}/mps-textgen-multilanguage.zip">
+      <fileset dir="${build.tmp}/default/mps-textgen-multilanguage.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
