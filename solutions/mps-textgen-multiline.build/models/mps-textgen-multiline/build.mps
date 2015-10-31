@@ -83,10 +83,15 @@
         <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
+      <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <property id="5253498789149547713" name="reexport" index="3bR36h" />
+        <reference id="5253498789149547705" name="module" index="3bR37D" />
+      </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -158,6 +163,9 @@
       <node concept="m$_yC" id="7cHHwqRGWds" role="m$_yJ">
         <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
+      <node concept="m$_yC" id="6wZzX1Z5opN" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+      </node>
       <node concept="3_J27D" id="7cHHwqRGU3S" role="m_cZH">
         <node concept="3Mxwew" id="7cHHwqRGU3T" role="3MwsjC">
           <property role="3MwjfP" value="mps-textgen-multiline" />
@@ -191,6 +199,35 @@
           <property role="TrG5h" value="com.dslfoundry.MultilineTextgen#3918894068769772845" />
           <property role="3LESm3" value="5baf2fdd-afb6-482e-967f-7b5b1fb8f387" />
           <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2upa8QOQD35" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="mps-textgen-multiline.build" />
+        <property role="3LESm3" value="7205159a-3f09-4b0b-b3bf-242391e68c82" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="2upa8QOQD38" role="3LF7KH">
+          <node concept="2Ry0Ak" id="2upa8QOQDnk" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="2upa8QOQDnx" role="2Ry0An">
+              <property role="2Ry0Am" value="mps-textgen-multiline.build" />
+              <node concept="2Ry0Ak" id="2upa8QOQDnA" role="2Ry0An">
+                <property role="2Ry0Am" value="mps-textgen-multiline.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2upa8QOQDnC" role="3bR37C">
+          <node concept="3bR9La" id="2upa8QOQDnD" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="90a9:2Xjt3l5bx_L" resolve="de.slisson.mps.all.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2upa8QOQDnE" role="3bR37C">
+          <node concept="3bR9La" id="2upa8QOQDnF" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
         </node>
       </node>
     </node>
