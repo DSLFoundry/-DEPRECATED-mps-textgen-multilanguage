@@ -83,10 +83,15 @@
         <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
+      <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <property id="5253498789149547713" name="reexport" index="3bR36h" />
+        <reference id="5253498789149547705" name="module" index="3bR37D" />
+      </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -114,16 +119,13 @@
         <ref role="398BVh" node="7cHHwqRGU3B" resolve="mps_home" />
       </node>
     </node>
-    <node concept="2sgV4H" id="7cHHwqRGWbO" role="1l3spa">
+    <node concept="2sgV4H" id="xpeortHWSy" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
-      <node concept="55IIr" id="7cHHwqRGWc0" role="2JcizS">
-        <node concept="2Ry0Ak" id="7cHHwqRGWcb" role="iGT6I">
+      <node concept="55IIr" id="xpeortHWT1" role="2JcizS">
+        <node concept="2Ry0Ak" id="xpeortHWTw" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7cHHwqRGWci" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7cHHwqRHkff" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-            </node>
+          <node concept="2Ry0Ak" id="xpeortHWTZ" role="2Ry0An">
+            <property role="2Ry0Am" value="dependencies" />
           </node>
         </node>
       </node>
@@ -136,12 +138,12 @@
           </node>
         </node>
         <node concept="m$_wl" id="7cHHwqRGU3Y" role="39821P">
-          <ref role="m_rDy" node="7cHHwqRGU3L" resolve="mpsTextgenMultiLine" />
+          <ref role="m_rDy" node="7cHHwqRGU3L" resolve="com.dslfoundry.mps.textgen.multilanguage" />
         </node>
       </node>
     </node>
     <node concept="m$_wf" id="7cHHwqRGU3L" role="3989C9">
-      <property role="m$_wk" value="mpsTextgenMultiLine" />
+      <property role="m$_wk" value="com.dslfoundry.mps.textgen.multilanguage" />
       <node concept="3_J27D" id="7cHHwqRGU3M" role="m$_yQ">
         <node concept="3Mxwew" id="7cHHwqRGU3N" role="3MwsjC">
           <property role="3MwjfP" value="mps-textgen-multiline" />
@@ -161,6 +163,9 @@
       <node concept="m$_yC" id="7cHHwqRGWds" role="m$_yJ">
         <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
+      <node concept="m$_yC" id="xpeortHNER" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+      </node>
       <node concept="3_J27D" id="7cHHwqRGU3S" role="m_cZH">
         <node concept="3Mxwew" id="7cHHwqRGU3T" role="3MwsjC">
           <property role="3MwjfP" value="mps-textgen-multiline" />
@@ -169,18 +174,47 @@
     </node>
     <node concept="2G$12M" id="7cHHwqRGU3K" role="3989C9">
       <property role="TrG5h" value="mps-textgen-multiline" />
+      <node concept="1E1JtA" id="xpeortHN_p" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="mps-textgen-multiline.build" />
+        <property role="3LESm3" value="7205159a-3f09-4b0b-b3bf-242391e68c82" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="xpeortHN_s" role="3LF7KH">
+          <node concept="2Ry0Ak" id="xpeortHNA9" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="xpeortHNAw" role="2Ry0An">
+              <property role="2Ry0Am" value="mps-textgen-multiline.build" />
+              <node concept="2Ry0Ak" id="xpeortHNAR" role="2Ry0An">
+                <property role="2Ry0Am" value="mps-textgen-multiline.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="xpeortHNCd" role="3bR37C">
+          <node concept="3bR9La" id="xpeortHNCe" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="90a9:2Xjt3l5bx_L" resolve="de.slisson.mps.all.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="xpeortHNCf" role="3bR37C">
+          <node concept="3bR9La" id="xpeortHNCg" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="7cHHwqRGU3J" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.dslfoundry.MultilineTextgen" />
+        <property role="TrG5h" value="com.dslfoundry.mps.textgen.multilanguage" />
         <property role="3LESm3" value="df5bd3dd-a4ec-4d50-9566-507bbf175dbe" />
         <property role="2GAjPV" value="false" />
         <node concept="55IIr" id="7cHHwqRGU3E" role="3LF7KH">
           <node concept="2Ry0Ak" id="7cHHwqRGU3F" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="7cHHwqRGU3G" role="2Ry0An">
-              <property role="2Ry0Am" value="NewLanguage" />
-              <node concept="2Ry0Ak" id="7cHHwqRGU3H" role="2Ry0An">
-                <property role="2Ry0Am" value="NewLanguage.mpl" />
+            <node concept="2Ry0Ak" id="4UK3LNySuPS" role="2Ry0An">
+              <property role="2Ry0Am" value="com.dslfoundry.mps.textgen.multilanguage" />
+              <node concept="2Ry0Ak" id="4UK3LNySuQ5" role="2Ry0An">
+                <property role="2Ry0Am" value="com.dslfoundry.mps.textgen.multilanguage.mpl" />
               </node>
             </node>
           </node>
@@ -191,7 +225,7 @@
           </node>
         </node>
         <node concept="1yeLz9" id="7cHHwqRGWcG" role="1TViLv">
-          <property role="TrG5h" value="com.dslfoundry.MultilineTextgen#3918894068769772845" />
+          <property role="TrG5h" value="com.dslfoundry.mps.textgen.multilanguage#3918894068769772845" />
           <property role="3LESm3" value="5baf2fdd-afb6-482e-967f-7b5b1fb8f387" />
           <property role="2GAjPV" value="false" />
         </node>
