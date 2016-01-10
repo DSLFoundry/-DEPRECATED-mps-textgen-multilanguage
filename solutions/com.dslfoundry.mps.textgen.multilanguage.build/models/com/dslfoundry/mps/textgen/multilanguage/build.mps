@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6f6c108a-f986-43c2-81a8-f0b0edffc95e(mps-textgen-multiline.build)">
+<model ref="r:6f6c108a-f986-43c2-81a8-f0b0edffc95e(com.dslfoundry.mps.textgen.multilanguage.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
@@ -155,7 +155,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="7cHHwqRGU3Q" role="m$_yh">
-        <ref role="m$f5T" node="7cHHwqRGU3K" resolve="mps-textgen-multiline" />
+        <ref role="m$f5T" node="7cHHwqRGU3K" resolve="mps-textgen-multilanguage" />
       </node>
       <node concept="m$_yC" id="7cHHwqRGU3R" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -173,7 +173,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="7cHHwqRGU3K" role="3989C9">
-      <property role="TrG5h" value="mps-textgen-multiline" />
+      <property role="TrG5h" value="mps-textgen-multilanguage" />
       <node concept="1E1JtA" id="xpeortHN_p" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.dslfoundry.mps.textgen.multilanguage.build" />

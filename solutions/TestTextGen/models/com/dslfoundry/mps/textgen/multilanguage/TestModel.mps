@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:05b7cf1d-0acb-4b16-ae4e-6be389a74463(NewSolution.TestModel)">
+<model ref="r:05b7cf1d-0acb-4b16-ae4e-6be389a74463(com.dslfoundry.mps.textgen.multilanguage.TestModel)">
   <persistence version="9" />
   <languages>
-    <use id="df5bd3dd-a4ec-4d50-9566-507bbf175dbe" name="com.dslfoundry.MultilineTextgen" version="-1" />
+    <use id="df5bd3dd-a4ec-4d50-9566-507bbf175dbe" name="com.dslfoundry.mps.textgen.multilanguage" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="652eb28e-2b53-45e6-8ac4-7321d868f280" name="com.dslfoundry.TestLanguage" version="-1" />
   </languages>
