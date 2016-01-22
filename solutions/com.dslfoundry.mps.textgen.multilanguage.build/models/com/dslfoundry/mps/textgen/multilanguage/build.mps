@@ -72,6 +72,9 @@
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
       </concept>
+      <concept id="6592112598314499036" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginModule" flags="ng" index="m$_yB">
+        <reference id="6592112598314499037" name="target" index="m$_yA" />
+      </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
@@ -122,11 +125,8 @@
     <node concept="2sgV4H" id="xpeortHWSy" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="55IIr" id="xpeortHWT1" role="2JcizS">
-        <node concept="2Ry0Ak" id="xpeortHWTw" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="xpeortHWTZ" role="2Ry0An">
-            <property role="2Ry0Am" value="dependencies" />
-          </node>
+        <node concept="2Ry0Ak" id="xpeortHWTZ" role="iGT6I">
+          <property role="2Ry0Am" value="dependencies" />
         </node>
       </node>
     </node>
@@ -156,6 +156,9 @@
       </node>
       <node concept="m$f5U" id="7cHHwqRGU3Q" role="m$_yh">
         <ref role="m$f5T" node="7cHHwqRGU3K" resolve="mps-textgen-multilanguage" />
+      </node>
+      <node concept="m$_yB" id="26To4bGSe82" role="m$_yh">
+        <ref role="m$_yA" node="xpeortHN_p" resolve="com.dslfoundry.mps.textgen.multilanguage.build" />
       </node>
       <node concept="m$_yC" id="7cHHwqRGU3R" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
