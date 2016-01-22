@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.dslfoundry.mps.textgen.multilanguage.build" uuid="7205159a-3f09-4b0b-b3bf-242391e68c82" moduleVersion="0" compileInMPS="true">
+<solution name="com.dslfoundry.mps.textgen.multilanguage.build" uuid="d1480034-545e-4c07-9426-e8ed008926ae" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -20,7 +20,7 @@
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="7205159a-3f09-4b0b-b3bf-242391e68c82(com.dslfoundry.mps.textgen.multilanguage.build)" version="0" />
+    <module reference="d1480034-545e-4c07-9426-e8ed008926ae(com.dslfoundry.mps.textgen.multilanguage.build)" version="0" />
     <module reference="f1fb7b1c-ce0d-423c-9369-4a661d600029(de.slisson.mps.all.build)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>
