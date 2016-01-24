@@ -1,4 +1,10 @@
 language: java
 
-install: ant deps
-script: ant clean generate assemble
+jdk:
+  - oraclejdk8
+
+before_install: wget http://download.jetbrains.com/mps/33/MPS-3.3.1.zip
+
+install: unzip MPS-3.3.1.zip ; ls
+
+script: ant -Dmps_home=./MPS\ 3.3 clean generate assemble
