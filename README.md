@@ -1,23 +1,33 @@
 JetBrains MPS Text Generator Plugin
 ===================================
 
-This plugin enables you to use the standard template mechanism of MPS (node macros, loop macros, property macros, etc.) to generate free text. So if you have some custom text format you want to generate to, you will have a more easy and useful mechanism than the standard MPS textgen.
+This plugin is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate free text.
 
-When to use this plugin?
-------------------------
-* If you have one or more custom text formats (i.e. formats that are not modeled as a lower level generation target) that you want to generate to. For example: you want to generate from some model in a custom DSL to VHDL, which has not yet been modeled in MPS.
-* If you need your textgen to obey priority rules. A normal MPS textgen cannot be included in generator priority rule specifications.
-* If you want to generate to multiple text formats from one model.
+Implementing a text generator involves writing free text and parameterizing parts of this text using macros.
 
-When not to use this plugin?
------------------------------
-* If you want to generate to a text format that has already been modeled as a lower level generation target, e.g. XML (or C in mbeddr).
+Quickstart
+----------
+This plugin may be for you if you are interested in:
+* generating directly to free text output without modeling your generation target language
+* generating to multiple text formats in the same generator run 
+* creating multiple textgens that obey generator priority rules
 
-Installation
-------------
 This plugin has been developed for MPS 3.3.
 
 To run the build, you need ant.
-A dependency is mps-sl-all.zip, which you need to have in a directory called dependencies in the root of this repository.
+A dependency is `mps-sl-all.zip`, which you need to have in a directory called dependencies in the root of this repository.
 The build is run by performing the following command on the command line:
- ant -Dmps_home=<your MPS install directory> clean generate assemble
+```
+ant -Dmps_home=<your MPS install directory> clean generate assemble
+```
+
+After installation, add the `mps.textgen.multilanguage` to the `Used Languages` of your generator and create a `TextgenText` template in your generator.
+
+For examples, see the test solution in this repository.
+
+Differences with standard textgen mechanism
+-------------------------------------------
+The standard textgen approach assumes that you model your target language (e.g. XML, or C in mbeddr) as an MPS language with all its concepts. Concept textgens provide a simple translation from concept to text. This approach is great for language extensibility, but requires that you model concepts of your target language, which in some cases is too large an investment.
+
+This plugin allows you to to write a text template and fill in the gaps using standard macros.
+For example: You generate from your DSL directly to VHDL, but VHDL has not yet modeled in MPS.
